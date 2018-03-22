@@ -46,6 +46,10 @@ section{
 	padding:100px 80px;
 }
 
+secction:not(.her0):nth-child(even){
+	background-color: #fff;
+}
+
 .grid{
 	width:100%;
 	display: flex;
@@ -186,5 +190,34 @@ header nav li{
 
 .designs .grid li.piano{
 	flex-basis:25%;
+}
+
+/*packages section*/
+
+.packages .grid li {
+	padding:50px;
+	flex-basis: 50%;
+	text-align: center;
+}
+
+.packages .grid li i {
+	color: #8c9eff;
+
+}
+
+.packages .grid li h4{
+	font-size: 30px;
+	marin: 25px 0;
+}
+
+
+
+/*testimonials*/
+
+.testimonials .quote{
+	font-size: 22px;
+	font-weight: 300px;
+	line-height: 1.5;
+	margin:40px 0 25px;
 }
 
